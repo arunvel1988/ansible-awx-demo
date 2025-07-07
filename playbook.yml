@@ -1,5 +1,5 @@
 - name: Demo ping
-  hosts: demo_nodes
+  hosts: all
   gather_facts: no
   tasks:
     - name: Ping test
