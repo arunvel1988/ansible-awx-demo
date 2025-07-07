@@ -1,0 +1,6 @@
+- name: Demo ping
+  hosts: demo_nodes
+  gather_facts: no
+  tasks:
+    - name: Ping test
+      ansible.builtin.ping:
