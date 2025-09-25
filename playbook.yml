@@ -1,5 +1,5 @@
 - name: Demo ping
-  hosts: [killer-koda]
+  hosts: killer-koda
   gather_facts: no
   tasks:
     - name: Ping test
